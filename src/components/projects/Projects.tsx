@@ -7,26 +7,31 @@ type ProjectsPropsType = {};
 
 const projectsList: Array<ProjectPropsType> = [
   {
+    id: '001',
     title: 'Project 001',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
     icon: 'img/project.jpg'
   },
   {
+    id: '002',
     title: 'Project 002',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
     icon: 'img/project.jpg'
   },
   {
+    id: '003',
     title: 'Project 003',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
     icon: 'img/project.jpg'
   },
   {
+    id: '004',
     title: 'Project 004',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
     icon: 'img/project.jpg'
   },
   {
+    id: '005',
     title: 'Project 005',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
     icon: 'img/project.jpg'
@@ -41,6 +46,8 @@ export const Projects: React.VFC<ProjectsPropsType> = props => {
         <div className={ styles.projects__box }>
           { projectsList.map( project => (
               <Project
+                  key={ project.id }
+                  id={ project.id }
                   title={ project.title }
                   icon={ project.icon }
                   desc={ project.desc }/>

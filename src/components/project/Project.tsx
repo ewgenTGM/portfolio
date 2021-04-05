@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Project.module.css';
 
 export type ProjectPropsType = {
+  id: string
   title: string
   icon: string
   desc: string

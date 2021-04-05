@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Skill.module.css';
 
 export type SkillPropsType = {
+  id: string
   title: string
   icon: string
   desc: string

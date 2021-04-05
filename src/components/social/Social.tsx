@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Social.module.css';
-import commonStyles from '../../common/CommonStyles.module.css';
 
 type PropsType = {};
 
