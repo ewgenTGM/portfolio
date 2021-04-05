@@ -1,0 +1,12 @@
+.projects {
+    background-color: #fbe0ff;
+    padding: 30px;
+}
+
+.projects__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}

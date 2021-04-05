@@ -1,0 +1,33 @@
+.project {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px whitesmoke;
+    flex-basis: 300px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+.project__icon {
+    width: 100px;
+    height: 100px;
+}
+
+.project__title {
+    font-size: 20px;
+    align-self: flex-start;
+}
+
+.project__desc {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 0 0 0.5px black;
+}
+
+.project__title h3 {
+    margin: 5px;
+}

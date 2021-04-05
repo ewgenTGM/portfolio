@@ -1,0 +1,17 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.section__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+.textCenter {
+    text-align: center;
+}

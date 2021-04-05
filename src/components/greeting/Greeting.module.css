@@ -1,0 +1,22 @@
+.greeting {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f7c6;
+    padding: 30px;
+}
+
+.greeting__text {
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.greeting__photo {
+}
+
+.greeting__photo img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+}
