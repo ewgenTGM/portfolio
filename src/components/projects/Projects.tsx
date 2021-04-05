@@ -9,27 +9,27 @@ const projectsList: Array<ProjectPropsType> = [
   {
     title: 'Project 001',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
-    icon: 'img/project.svg'
+    icon: 'img/project.jpg'
   },
   {
     title: 'Project 002',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
-    icon: 'img/project.svg'
+    icon: 'img/project.jpg'
   },
   {
     title: 'Project 003',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
-    icon: 'img/project.svg'
+    icon: 'img/project.jpg'
   },
   {
     title: 'Project 004',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
-    icon: 'img/project.svg'
+    icon: 'img/project.jpg'
   },
   {
     title: 'Project 005',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
-    icon: 'img/project.svg'
+    icon: 'img/project.jpg'
   }
 
 ];

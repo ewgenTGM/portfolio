@@ -1,33 +1,50 @@
 .project {
-    height: 250px;
+    height: 450px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
     box-shadow: 0 0 20px whitesmoke;
     flex-basis: 300px;
-    background-color: whitesmoke;
-    padding: 10px;
 }
 
 
+.project__icon_box {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+
+}
+
 .project__icon {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url("project.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+}
+
+.project__icon:hover {
+    transition: all .4s;
+    transform: scale(1.2);
 }
 
 .project__title {
+    margin: 0;
+    padding: 5px;
     font-size: 20px;
     align-self: flex-start;
 }
 
 .project__desc {
     text-align: center;
+    padding: 5px;
     font-size: 14px;
-    font-weight: 300;
-    text-shadow: 0 0 0.5px black;
 }
 
 .project__title h3 {
-    margin: 5px;
+    margin: 0;
 }

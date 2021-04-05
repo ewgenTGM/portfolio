@@ -5,6 +5,7 @@ import { Skills } from '../skills/Skills';
 import { Projects } from '../projects/Projects';
 import { FeedbackForm } from '../feedbackForm/FeedbackForm';
 import { Footer } from '../footer/Footer';
+import { Remote } from '../remote/Remote';
 
 type PropsType = {};
 
@@ -14,6 +15,7 @@ const Main = ( props: PropsType ) => {
         <Greeting/>
         <Skills/>
         <Projects/>
+        <Remote/>
         <FeedbackForm/>
         <Footer/>
       </main>

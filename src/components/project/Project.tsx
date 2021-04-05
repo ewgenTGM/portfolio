@@ -16,11 +16,8 @@ export const Project: React.VFC<ProjectPropsType> = props => {
 
   return (
       <div className={ styles.project }>
-        <div>
-          <img
-              className={ styles.project__icon }
-              src={ icon }
-              alt={ title }/>
+        <div className={ styles.project__icon_box }>
+          <div className={ styles.project__icon }/>
         </div>
         <div className={ styles.project__title }>
           <h3>{ title }</h3>
