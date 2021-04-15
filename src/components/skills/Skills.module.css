@@ -1,6 +1,7 @@
 .skills {
     background-color: #e6fbe1;
     padding: 30px;
+    min-height: 100vh;
 }
 
 .skills__box {

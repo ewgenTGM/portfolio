@@ -10,7 +10,7 @@ const projectsList: Array<ProjectPropsType> = [
     id: '001',
     title: 'Project 001',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet autem beatae commodi consectetur cumque distinctio enim fuga fugiat ipsum libero',
-    icon: 'img/project.jpg'
+    icon: 'img/project.svg'
   },
   {
     id: '002',
